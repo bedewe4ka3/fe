@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="login">
+    <h1>Регистрация</h1>
+    <hr>
+<form action="/" method="get">
+        <label for="login">
+            <p>Логин:</p>
+            <input type="text" name="login" placeholder="Введите логин" id="login">
+        </label>
+        <label for="password">
+            <p>Пароль:</p>
+            <input type="password" name="password" id="password" placeholder="Введите пароль">
+        </label>
+        <label for="email">
+            <p>Почта:</p>
+            <input type="email" name="email" placeholder="Введите e-mail" id="email">
+        </label>
+        <label for="tel">
+            <p>Телефон:</p>
+            <input type="tel" name="tel" placeholder="Введите телефон" id="tel">
+        </label>
+            <p>Выберите пол:
+        <label for="male">м
+            <input type="radio" name="pol" value="male" id="male">
+        </label>
+        <label for="female">ж
+            <input type="radio" name="pol" value="female" id="female">
+        </label>
+        </p>
+            <br>
+        <p><label>
+            Выберите город:
+        <select>
+            <option>Киев</option>
+            <option>Львов</option>
+            <option>Луганск</option>
+            <option>Донецк</option>
+        </select>
+        </label></p>
+        <p><label for="rassulka">Подписать на рассылку?
+            <input type="checkbox" name="raasulka" check id="rassulka">
+        </label></p>
+    <br>
+    <input type="submit" value="Регистрация!">
+<br>
+    <br>
+
+
+</form>
+</div>
+</body>
+</html>
